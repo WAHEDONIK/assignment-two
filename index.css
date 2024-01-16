@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;700&family=Merriweather:ital,wght@0,400;0,700;1,300&family=Mulish:ital,wght@0,400;1,800&family=Open+Sans:wght@800&display=swap');
+
+.orange{color: #FF5400;}
+
+
+
+.header-item{max-width: 1300px;
+margin: 0 auto;
+
+display: flex; 
+align-items: center}
+
+.nav-content{
+min-height: 20px;
+display: flex;
+align-items: center;
+
+width: 50%;}
+.nav-content p {color: #131318;
+
+    font-family: 'Inter', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Mulish', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;}
+    .Travel{color: #FF5400;
+    }
+.nav-content img{width: 48px;
+padding-right: 10px;
+}
+
+
+
+.nav-item{
+width: 50%;
+display: flex;
+justify-content: space-between;}
+.nav-item a{text-decoration: none;
+text-align: center;
+font-family: Mulish;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;}
+/* main content */
+
+.main-container{background-image: url(Images/Group\ 13\ \(1\)\ \(1\).png);
+    width: 1170px;
+    height: 500px;
+    flex-shrink: 0;
+    margin: 0 auto;
+border-radius: 16px;
+text-align: center;}
+
+
+.main-header{background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+
+  padding-top: 100px;
+ margin-top: 80px;
+    color: #FFF;text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;}
+.first-p{color: #FFF;
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; }
+    .main-H1{color: #FFF;
+        font-family: Mulish;
+        font-size: 64px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;}
+       .main-in{display: inline-flex;
+        padding: 16px;
+        align-items: flex-start;
+        gap: 24px;
+    
+}
+    .main-in input{border-radius: 8px;
+        width: 174px;
+        height: 52px;
+        flex-shrink: 0;
+        color: rgba(19, 19, 24, 0.50);
+
+text-align: center;
+font-family: Mulish;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+    }
+        .fin{color: #FFF;
+
+            text-align: center;
+            font-family: Mulish;
+            font-size: 30px;
+            font-style: normal;
+            font-weight: 700px;
+            line-height: normal;
+            background: #FF5400;
+        border: none;
+    border-radius: 8px;}
+/* selector */
+.selector-class{display: flex;
+    max-width: 1250px}
+
+.section-header{width: 1040px;
+    height: 450px;
+border: 2px solid red;
+padding-top: 100px;
+padding-left: 50px;
+text-align: justify;
+font-family: Mulish;}
+.sele-im{width: 540px;
+    height: 550px;
+    flex-shrink: 0;
+border: 2px solid blue;}

@@ -1,0 +1,33 @@
+
+
+
+
+
+@media screen and (max-width: 600px)
+{.header-item{border: 2px solid red;
+flex-direction: column;
+width: 375px;
+height: 64px;
+flex-shrink: 0;
+justify-content: center; 
+margin: 0px 0px 0px 250px;}
+.nav-item{gap: 20px;
+justify-content: center;}
+
+.nav-content p{color: #131318;
+
+    font-family: Mulish;
+    font-size: 21.543px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;}
+
+    /* main */
+.main-container{width:140%;
+
+    margin: 50px 0 0 50px;
+    height: 483px;
+    flex-shrink: 0;
+flex-direction: column; border: 2px solid red;}
+.main-in{flex-direction: column;}}
+
