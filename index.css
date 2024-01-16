@@ -2,13 +2,23 @@
 
 .orange{color: #FF5400;}
 
+.class-p1{color: rgba(19, 19, 24, 0.70);
+
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;}
+
 
 
 .header-item{max-width: 1300px;
 margin: 0 auto;
 
+
 display: flex; 
-align-items: center}
+align-items: center;
+}
 
 .nav-content{
 min-height: 20px;
@@ -109,16 +119,120 @@ line-height: normal;
     border-radius: 8px;}
 /* selector */
 .selector-class{display: flex;
-    max-width: 1250px}
+    max-width: 1250px;
+    max-height: 600px;
+margin-top: 150px;
+
+}
 
 .section-header{width: 1040px;
-    height: 450px;
-border: 2px solid red;
+    height: 650px;
+
 padding-top: 100px;
 padding-left: 50px;
 text-align: justify;
 font-family: Mulish;}
 .sele-im{width: 540px;
     height: 550px;
+    flex-shrink: 0; 
+}
+.secound{width: 1200px;
+    height: 230px;
+
+justify-content: center;
+text-align: center;
+padding-top: 50px;}
+/* image */
+
+.seco-ima{width: 1250px;
+height: 950px;
+
+
+
+   border-radius: 16px;
+}
+.team-team
+{display: flex;
+    flex-wrap: wrap;
+    column-gap: 30px;
+    row-gap: 10px;
+    justify-content: center;
+}
+/* form */
+.first-form{width: 1200px;
+    height: 284px;
+    justify-content: space-between;
+   
+
+display: flex;
+}
+
+.card-2 img{width: 64px;
+    height: 44px;
+    flex-shrink: 0;}
+ .card-2{width: 573px;
+    height: 284px;
     flex-shrink: 0;
-border: 2px solid blue;}
+
+background: rgba(247, 195, 221, 0.192);}
+.card-3 img{width: 64px;
+    height: 44px;
+    flex-shrink: 0;}
+ .card-3{width: 573px;
+    height: 284px;
+    flex-shrink: 0;
+
+background: rgba(169, 219, 231, 0.199);}
+
+
+
+
+
+
+.card-daddy{width: 500px;
+    height: 204px;
+    margin : 20px auto;
+     align-content: center;
+      
+    flex-direction: column;
+     width: 50%;
+     
+    }
+.card-1 img{width: 64px;
+    height: 44px;
+    flex-shrink: 0;}
+.card-1{background: rgba(248, 146, 146, 0.192);}
+/* form 2 */
+.form-2{width: 1200px;
+    height: 450px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form2-div{border-radius: 16px;
+    border: 1px solid #FF5400;
+width: 40%;
+height: 370px;
+padding-top: 50px;}
+.form2-img{width: 672px;
+    height: 422px;
+    flex-shrink: 0;}
+    .form2-div input{width: 393px;
+        height: 52px;
+        flex-shrink: 0;}
+.Subscribe{width: 393px;
+    height: 52px;
+    flex-shrink: 0;
+    
+    border-radius: 8px;
+background: #FF5400;}
+/* footer */
+.footer-container{width: 1200px;
+    height: 300px;
+   
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-content{display: flex;
+justify-content: center;}
+.footer-ig{
+    }
