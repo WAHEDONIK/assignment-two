@@ -235,13 +235,5 @@ background: #FF5400;}
 .footer-content{display: flex;
 justify-content: center;}
 /* media */
-@media only screen and (max-width: 600px)(min-width:300px)
-{header{border: none;}
-    
-    
-    .nav-item{display: flex; border: none;
-justify-content: center;}
-.main-container{
-margin: 0 5px;}
-}
+
     

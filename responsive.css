@@ -3,13 +3,31 @@
 
 
 @media only screen and (max-width: 600px)
-{header{}
-    
-    
-    .nav-item{display: flex; border: none;
-justify-content: center;}
-.main-container{
+{header{padding: 0 5rem;}
+    .header-item{display: grid;
+    }
+    .nav-item{}
+    .main-container{width: 400px;
+        height: 400px;
+    font-size: 1rem;
+
 display: grid;
-grid-template-columns: 10px;}
+grid-template-columns: repeat(1 1fr);
+}
+.main-header{width: 400px;
+height: 45px;
+}
+.main-in{display: grid;
+
+grid-template-columns: repeat(1 1fr);
+padding-bottom: 150px;}
+.main-container{display: block;
+    grid-template-columns: repeat(1 1fr);}
+.selector-class{display: grid;
+grid-template-columns: repeat(1 1fr);}
+.seco-ima{display: grid;
+grid-template-columns: repeat(1 1fr);}
+.selector-class2{display: grid;
+    grid-template-columns: repeat(1 1fr);}
 }
 
